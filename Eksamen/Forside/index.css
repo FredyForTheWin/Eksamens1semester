@@ -34,6 +34,7 @@ body {
     font-weight: normal;
 }
 
+/*  HEADER START */
 header {
     margin: .2em;
     background-color: #D38219;
@@ -70,6 +71,12 @@ ul li {
     display: inline-block;
     padding-left: .6em;
 }
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+/*  HEADER SLUT */
 
 #hero {
     width: 80%;

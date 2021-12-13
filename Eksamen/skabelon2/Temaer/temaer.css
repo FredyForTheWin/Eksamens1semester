@@ -70,7 +70,7 @@ ul li {
 /*  HEADER SLUT */
 
 img {
-    width: 90%;
+    width: 60%;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -102,37 +102,19 @@ img {
     grid-area: knap6;
 }
 
-#knap7 {
-    grid-area: knap7;
-}
-
-#knap8 {
-    grid-area: knap8;
-}
-
-#knap9 {
-    grid-area: knap9;
-}
-
-#knap10 {
-    grid-area: knap10;
-}
-
-#knap11 {
-    grid-area: knap11;
-}
-
-#knap12 {
-    grid-area: knap12;
-}
-
 footer {
     background-color: #D38219;
     color: white;
     padding: 2em;
-    position:absolute;
-    bottom:0;
-    width:100%;
+}
+
+.footertekst {
+    padding-bottom: .7em;
+}
+
+#facilitatorer {
+    padding-bottom: .3em;
+    font-size: 1.5em;
 }
 
 @media screen and (min-width: 800px) {
@@ -140,18 +122,15 @@ footer {
 #knapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
         "knap1 knap2"
         "knap3 knap4"
-        "knap5 knap6"
-        "knap7 knap8"
-        "knap9 knap10"
-        "knap11 knap12";
+        "knap5 knap6";
 }
 
 img {
-    width: 95%;
+    width: 75%;
 }
 
 header {
@@ -164,17 +143,13 @@ header {
     #knapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-template-areas: 
             "knap1 knap2 knap3"
-            "knap4 knap5 knap6"
-            "knap7 knap8 knap9"
-            "knap10 knap11 knap12";
+            "knap4 knap5 knap6";
     }
 
 header {
    font-size: 1.8em;
 }
-
-
 }

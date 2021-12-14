@@ -24,7 +24,6 @@ nav ul {
 blockquote:before, blockquote:after, q:before, q:after {
     content:''; content:none;
 }
-
 /*  END RESET */
 
 body {
@@ -89,6 +88,14 @@ h2 {
     margin-bottom: .4em;
 }
 
+#billede2 {
+    width: 45%;
+    float: right;
+    margin-left: .4em;
+    margin-right: .4em;
+    margin-bottom: .4em;
+}
+
 #information p {
     color: white;
     font-size: 1.2em;
@@ -143,9 +150,5 @@ header {
 
 #billede1 {
     width: 45%;
-}
-
-#billede2 {
-    width: 20%;
 }
 }

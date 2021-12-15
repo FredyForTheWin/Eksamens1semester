@@ -74,41 +74,26 @@ ul li a {
 }
 /*  HEADER SLUT */
 
-img {
-    width: 60%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: .5em;
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 1em;
     margin-top: .5em;
 }
 
-#knap1 {
-    grid-area: knap1;
+#billede1 {
+    width: 45%;
+    float: right;
+    margin-left: .4em;
+    margin-right: .4em;
+    margin-bottom: .4em;
 }
 
-#knap2 {
-    grid-area: knap2;
-}
-
-#knap3 {
-    grid-area: knap3;
-}
-
-#knap4 {
-    grid-area: knap4;
-}
-
-#knap5 {
-    grid-area: knap5;
-}
-
-#knap6 {
-    grid-area: knap6;
-}
-
-#knap7 {
-    grid-area: knap7;
+#information p {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 1em;
 }
 
 footer {
@@ -128,39 +113,40 @@ footer {
 
 @media screen and (min-width: 800px) {
 
-#knapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-        "knap1 knap2"
-        "knap3 knap4"
-        "knap5 knap6"
-        "knap7 .";
-}
-
-img {
-    width: 75%;
-}
-
 header {
     font-size: 1.3em;
+}
+
+#billede1 {
+    width: 45%;
+}
+
+#information p {
+    font-size: 1.3em;
+}
+
+
+#information {
+    margin-right: 20%;
+    margin-left: 20%;
 }
 }
 
 @media screen and (min-width: 1300px) {
 
-    #knapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: 
-            "knap1 knap2 knap3"
-            "knap4 knap5 knap6"
-            ". knap7 .";
-    }
-
 header {
    font-size: 1.8em;
+}
+
+#information p {
+    font-size: 1.4em;
+}
+
+#billede1 {
+    width: 45%;
+}
+
+#billede2 {
+    width: 20%;
 }
 }

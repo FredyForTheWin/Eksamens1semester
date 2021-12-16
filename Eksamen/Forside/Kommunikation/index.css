@@ -103,14 +103,6 @@ img {
     grid-area: knap5;
 }
 
-#knap6 {
-    grid-area: knap6;
-}
-
-#knap7 {
-    grid-area: knap7;
-}
-
 footer {
     background-color: #D38219;
     color: white;
@@ -131,12 +123,11 @@ footer {
 #knapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
         "knap1 knap2"
         "knap3 knap4"
-        "knap5 knap6"
-        "knap7 .";
+        "knap5 .";
 }
 
 img {
@@ -156,8 +147,7 @@ header {
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: 
             "knap1 knap2 knap3"
-            "knap4 knap5 knap6"
-            ". knap7 .";
+            "knap4 knap5 .";
     }
 
 header {

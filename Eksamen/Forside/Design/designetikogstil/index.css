@@ -52,7 +52,7 @@ h1 {
     font-weight: normal;
 }
 
-h1 span {
+span {
     font-weight: bold;
 }
 
@@ -82,14 +82,6 @@ h2 {
     margin-top: .5em;
 }
 
-#billede1 {
-    width: 45%;
-    float: right;
-    margin-left: .4em;
-    margin-right: .4em;
-    margin-bottom: .4em;
-}
-
 #information p {
     color: white;
     font-size: 1.2em;
@@ -117,10 +109,6 @@ header {
     font-size: 1.3em;
 }
 
-#billede1 {
-    width: 45%;
-}
-
 #information p {
     font-size: 1.3em;
 }
@@ -140,13 +128,5 @@ header {
 
 #information p {
     font-size: 1.4em;
-}
-
-#billede1 {
-    width: 45%;
-}
-
-#billede2 {
-    width: 20%;
 }
 }

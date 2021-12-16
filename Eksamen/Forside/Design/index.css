@@ -90,14 +90,6 @@ img {
     grid-area: knap2;
 }
 
-#knap3 {
-    grid-area: knap3;
-}
-
-#knap4 {
-    grid-area: knap4;
-}
-
 footer {
     background-color: #D38219;
     color: white;
@@ -118,10 +110,9 @@ footer {
 #knapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas: 
-        "knap1 knap2"
-        "knap3 knap4";
+        "knap1 knap2";
 }
 
 img {
@@ -138,13 +129,16 @@ header {
     #knapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         grid-template-areas: 
-            "knap1 knap2 knap3"
-            ". knap4 .";
+            "knap1 knap2 .";
     }
 
 header {
    font-size: 1.8em;
+}
+
+footer {
+    margin-top: 22em;
 }
 }

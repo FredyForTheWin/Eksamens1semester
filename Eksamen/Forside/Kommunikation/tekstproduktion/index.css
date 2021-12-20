@@ -29,7 +29,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 /*  END RESET */
 
 body {
-    font-family: Oswald;
+    font-family: Open Sans;
     background-color: #E89B37;
     font-weight: normal;
 }
